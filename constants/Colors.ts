@@ -1,0 +1,46 @@
+const tintColorLight = "#2f95dc";
+const tintColorDark = "#fff";
+
+const Colors = {
+  light: {
+    text: "#000",
+    textInverted: "#fff",
+    background: "#fff",
+    tint: tintColorLight,
+    tabIconDefault: "#ccc",
+    tabIconSelected: tintColorLight,
+    stroke: "#B7B9B7",
+    ratesColor: "#373937",
+    radioButtonActiveBackgroundColor: "#0A9F7C",
+    radioButtonBackgroundColor: "#D9D9D9",
+    radioButtonActiveTextColor: "#FFFFFF",
+    radioButtonTextColor: "#000000",
+    dropdownBg: "#B6B5B5",
+    dropdownItemBg: "#D9D9D9",
+    dropdownActiveItemBg: "#0A9F7C",
+    footerColor: "#373937",
+    creditsBackgroundColor: "#bfe6dd",
+    ratesText: "#373937",
+  },
+  dark: {
+    text: "#fff",
+    textInverted: "#000",
+    background: "#000",
+    tint: tintColorDark,
+    tabIconDefault: "#ccc",
+    tabIconSelected: tintColorDark,
+    stroke: "#B7B9B7",
+    ratesColor: "#373937",
+    radioButtonActiveBackgroundColor: "#0A9F7C",
+    radioButtonBackgroundColor: "#D9D9D9",
+    radioButtonActiveTextColor: "#FFFFFF",
+    radioButtonTextColor: "#000000",
+    dropdownBg: "#B6B5B5",
+    dropdownItemBg: "#D9D9D9",
+    dropdownActiveItemBg: "#0A9F7C",
+    footerColor: "#373937",
+    creditsBackgroundColor: "#bfe6dd",
+    ratesText: "#373937",
+  },
+};
+export default Colors;
